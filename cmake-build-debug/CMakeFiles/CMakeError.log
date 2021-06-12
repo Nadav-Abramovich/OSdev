@@ -1,0 +1,30 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/nadav/CLionProjects/learnC++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/cygdrive/c/mingw/bin/gmake.exe cmTC_2d040/fast && C:/mingw/bin/gmake  -f CMakeFiles/cmTC_2d040.dir/build.make CMakeFiles/cmTC_2d040.dir/build
+gmake[1]: Entering directory 'C:/Users/nadav/CLionProjects/learnC++/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: ***.  Stop.
+gmake[1]: Leaving directory 'C:/Users/nadav/CLionProjects/learnC++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_2d040/fast' failed
+gmake: *** [cmTC_2d040/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /cygdrive/c/Users/nadav/CLionProjects/learnC++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/cygdrive/c/mingw/bin/gmake.exe cmTC_245b1/fast && C:/mingw/bin/gmake  -f CMakeFiles/cmTC_245b1.dir/build.make CMakeFiles/cmTC_245b1.dir/build
+gmake[1]: Entering directory 'C:/Users/nadav/CLionProjects/learnC++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_245b1.dir/testCCompiler.c.o
+/cygdrive/c/mingw/bin/cc.exe    -o CMakeFiles/cmTC_245b1.dir/testCCompiler.c.o -c /cygdrive/c/Users/nadav/CLionProjects/learnC++/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+CMakeFiles/cmTC_245b1.dir/build.make:84: recipe for target 'CMakeFiles/cmTC_245b1.dir/testCCompiler.c.o' failed
+process_begin: CreateProcess(NULL, /cygdrive/c/mingw/bin/cc.exe -o CMakeFiles/cmTC_245b1.dir/testCCompiler.c.o -c /cygdrive/c/Users/nadav/CLionProjects/learnC++/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c, ...) failed.
+make (e=2): The system cannot find the file specified.
+gmake[1]: *** [CMakeFiles/cmTC_245b1.dir/testCCompiler.c.o] Error 2
+gmake[1]: Leaving directory 'C:/Users/nadav/CLionProjects/learnC++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_245b1/fast' failed
+gmake: *** [cmTC_245b1/fast] Error 2
+
+
+
